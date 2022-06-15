@@ -1,0 +1,106 @@
+/* COMMON---------------------------------------------------------- */
+body {
+    background-color: #8fa98d;
+	font-family: 'Spartan', sans-serif;
+}
+
+a.nav-link {
+    color: white;
+}
+
+/* Nav --------------------------------------------------------------- */
+a.nav-item:hover {
+    color: pink;
+}
+
+/* Header-------------------------------------------------------------- */
+header {
+    width: 95%;
+}
+
+/* My Name -------------------------------------------------------------*/
+.myName {
+    background-image: url("../assets/myNameImg.jpeg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+.nameLocation {
+    padding: 50px;
+}
+
+.myName p {
+    font-size: 20px;
+    color: rgb(12, 7, 90);
+}
+
+.myName h2 {
+    font-family: 'DM Serif Display', serif;
+	font-size: 30px;
+    color: rgb(12, 7, 90);
+    font-weight: bolder;
+}
+
+/* myPhoto -------------------------------------------------------- */
+
+.myPhoto {
+    background-image: url("../assets/image.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.photoName_location {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+    padding: 30px;
+    color: rgb(188, 62, 83);
+}
+
+
+
+/* about Me----------------------------------------------------- */
+.aboutMe {
+    background-color: antiquewhite;
+    min-height: 400px;
+}
+
+.aboutMe h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 35px;
+}
+
+.textLocation {
+    padding: 50px;
+    color: rgb(12, 7, 90);
+}
+
+.fab {
+    font-size: 30px;
+}
+
+
+/* Work ---------------------------------------------------- */
+.work {
+    margin: 80px 0;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+img {
+    /* height: 300px; */
+    width: 100%;
+}
+
+.work h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    margin-bottom: 40px;
+}
