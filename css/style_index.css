@@ -1,21 +1,39 @@
 /* COMMON---------------------------------------------------------- */
 body {
-    background-color: #8fa98d;
+    background-color: #e1eee0;
 	font-family: 'Spartan', sans-serif;
 }
 
 a.nav-link {
-    color: white;
+    color: black;
 }
 
-/* Nav --------------------------------------------------------------- */
-a.nav-item:hover {
-    color: pink;
-}
+
 
 /* Header-------------------------------------------------------------- */
+#home {
+    width: 90%;
+}
+
 header {
-    width: 95%;
+    position: fixed;  
+    background-color: #e1eee0;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+
+    
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(34, 24, 28, 1)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-link {
+    color: #22181c;
 }
 
 /* My Name -------------------------------------------------------------*/
@@ -96,7 +114,11 @@ header {
 }
 img {
     /* height: 300px; */
-    width: 100%;
+    width: 90%;
+}
+
+.work1 {
+    margin-bottom: 56px;
 }
 
 .work h1 {
